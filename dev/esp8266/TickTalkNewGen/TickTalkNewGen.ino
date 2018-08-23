@@ -158,6 +158,7 @@ void onAppointmentTriggered(int startDay, int startMonth, int startYear, int sta
   Serial.print("startDay=");    Serial.println(startDay);
   Serial.print("startMonth=");  Serial.println(startMonth);
   Serial.print("startYear=");   Serial.println(startYear);
+  Serial.print("startHour="); Serial.println( startHour);
   Serial.print("startMinute="); Serial.println( startMinute);
   Serial.print("endHour=");     Serial.println(endHour);
   Serial.print("endMinute=");   Serial.println(endMinute);
